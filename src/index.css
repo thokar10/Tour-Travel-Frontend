@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: whitesmoke;
+}
+.bg-custom {
+  background-position: center;
+  background-size: cover;
+}
+@media (min-width: 640px) {
+  .menuOptions {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .anchorLinks {
+    display: none;
+  }
+}
+
+/* 
+body part css
+} */
+
+@media (min-width: 590px) {
+  .gridColumn {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 1158px) {
+  .gridColumn {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+/* 
+login page css
+} */
